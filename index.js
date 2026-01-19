@@ -13,6 +13,7 @@ const server = Bun.serve ({
         "/about":Bun.file("./web/html/about.html"),
         "/contact":Bun.file("./web/html/contact.html"),
         "/web/css/main.css":Bun.file("./web/css/main.css"),
+        "/web/hadtodoit.png":Bun.file("./web/hadtodoit.png"),
         "/figlet": () => {
             const body = figlet.textSync("Bun!");
             return new Response(body)

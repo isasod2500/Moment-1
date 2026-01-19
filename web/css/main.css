@@ -1,7 +1,8 @@
 body {
     background-color: rgb(255, 123, 143);
     display: grid;
-    grid-template: 100% / 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 3fr 3fr 3fr;
     text-align: center;
     align-items: center;
 }
@@ -19,3 +20,28 @@ body {
     grid-template-columns: 3fr 3fr 3fr;
 }
 
+#about-header {
+ display: grid;
+    background-color: bisque;
+    height: 100%;
+    align-items: center;
+}
+
+.about-nav {
+display: grid;
+    grid-column: 1 / span 3;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+#contact-header {
+    display: grid;
+    background-color: bisque;
+    height: 100%;
+    align-items: center;
+}
+
+.contact-nav {
+    display: grid;
+    grid-column: 1 / span 3;
+    grid-template-columns: 3fr 3fr 3fr;
+}

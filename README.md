@@ -1,15 +1,4 @@
-# moment-1
+# BunDemo website
 
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.3.6. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+My first webpage created with Bun. A new experience, and honestly very intimidated by everything that I've got to learn. 
+Still a lot of questionmarks and mysteries. I can hear the (S)FTP systems faintly calling me back to safety.....

@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(255, 123, 143);
+    text-align: center;
+    align-items: center;
+}
+
+#index-header {
+    background-color: bisque;
+}
